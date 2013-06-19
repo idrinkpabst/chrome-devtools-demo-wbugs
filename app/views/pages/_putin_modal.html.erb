@@ -1,0 +1,21 @@
+
+<!-- another hover example http://jsfiddle.net/rThnm/ -->
+<!-- Modal -->
+<div id="putin-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Big Brother Says...</h3>
+  </div>
+  <div class="modal-body">
+    <p>
+      I am NOT watching you IP address of 
+      <span id="putin-client-ip-address"></span>
+    </p>
+  </div>
+  <div>
+    <%= image_tag 'putin.jpg', class: 'putin' %>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
